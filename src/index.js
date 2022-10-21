@@ -1,14 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './header';
-import Footer from './footer';
-import Note from './note'
+import App from 'src/app.js';
 
-ReactDOM.render(<div>
-    <Header />
-    <Note />
-    <Footer />
-</div>, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 //1. Create a new React app. - DONE
 //2. Create a App.jsx component. - DONE
